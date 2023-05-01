@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.0;
+
+/// @title IERC20
+/// @notice Minimal ERC721 interface
+interface IERC20 {
+  /// @notice Transfer tokens
+  /// @param recipient receiver
+  /// @param amount to transfer
+  function transfer(address recipient, uint256 amount) external;
+  function approve(address spender, uint256 amount) external returns (bool);
+  function balanceOf(address) external returns (uint256);
+}
