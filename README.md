@@ -1,5 +1,7 @@
 # Maker Uniswap Leverage Strategy - DSProxy Scripts
 
+## Note: Euler is no longer operational and Uni V2 / V3 LP strategies have been deprecated by MakerDAO
+
 This repo provides a set of smart contract scripts to lever and delever Uniswap LP positions in your Maker CDP. Currently supports:
 - Uniswap V2 DAI USDC LP
 - Gelato 1bps Uniswap V3 DAI USDC LP
